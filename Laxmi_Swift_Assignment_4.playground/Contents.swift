@@ -56,7 +56,7 @@ class Camper: EntertainmentSystem, ElectricitySystem {
     
     init() {
         self.hasTVOn = false
-        self.currentBatteryLevel = 15.0
+        self.currentBatteryLevel = 15.0 // default value
         self.isBatteryMonitorOn = true
         self.batteryNotification = "Check battery level"
     }
